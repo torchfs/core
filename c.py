@@ -24,6 +24,7 @@ torchfsc get storages uri           show details of the entry named uri partly
   status:
   bytes:
 torchfsc get storages uri -v        show details of the entry named uri entirely
+torchfsc get storages uri uri       download data of the first uri to the second uri
 torchfsc put storages uri           attach an entry
 torchfsc put storages uri uri       upload data of the second uri to the first uri
 torchfsc post storages json         update some details in json of all entries
